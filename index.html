@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense Tracker</title> 
+    <link rel="stylesheet" href="style.css">
+</head>
+ <body>
+    
+  
+<div class="container">
+     <h1>Expenses tracker</h1>
+        <div class="balance-container"> 
+             <h2 id="my-balance">Your balance</h2> 
+             <h1 id="balance">$000</h1> 
+             <div class="summary">
+                 <div class="income-summary">
+                     <h3>income</h3>
+                 <p id="income"> 
+$00
+                 </p>  
+</div>
+             <div class="expenses">    
+                 <h3> Expenses
+
+                 </h3>
+                     <p id="expenses">   
+           $00
+                     </p>
+                 </div>
+               
+                
+             </div>
+              
+        </div>
+    <div class="main-container">  
+        <div class="transaction-container"> 
+              
+            <h2> Transactions</h2> 
+            <ul id="transaction-list" > 
+                <!-- will be inserted in javascri[pt  -->
+            </ul>  
+              
+
+        </div>
+    <div class="form-container"> 
+        <h2>Add transaction </h2> 
+        
+         <form id="transaction-item" for ="form-group">
+         <div class="add-description">
+             <label for="description">Description</label>
+                <input type="text" id="description" placeholder="Enter your  name...."> 
+
+             
+         </div>       
+ 
+          <div class="amount">
+            <label for="amount">Amount</label>
+                <input type="number"  id="amount" placeholder="Enter your amount..." >
+          <small>use negative(-) for expenses</small> 
+          </div>
+              <button type="submit"> Add description
+     </button>
+         </form>
+    </div> 
+    </div> 
+    </div>
+</div>
+
+    
+ <script src="expense.js"></script>
+</body>
+</html>
+ 
