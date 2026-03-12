@@ -133,7 +133,7 @@ body{
          } 
            .transaction-item{ 
                  background: white; 
-                 border-radius: 0.5rem; 
+                 border-radius: 1rem; 
                  padding: 20px;
                   margin-bottom: 14px; 
                   display: flex; 
@@ -142,6 +142,7 @@ body{
                   box-shadow: 8px 14px rgba(0, 0, 0 ,0.12);  
                     transition: all 0.2s;
                      animation: slideIn 0.3s ease-out;
+                      
            }
                .transaction-item:hover{ 
                     transform: translateY(-3px); 
@@ -211,7 +212,7 @@ body{
                        transform: translateY(-2px);
                   }
                   .form-container{ 
-                       background: white; 
+                       background: rgb(235, 216, 216); 
                        border-radius: 1rem; 
                        padding: 24px; 
                        box-shadow: 8px 14px rgba(0, 0, 0 ,0.12);  
@@ -297,11 +298,14 @@ body{
        color: #e53e3e; 
         font-size: 18px; 
          cursor: pointer;
-          transition: all 0.2s;
+          transition: all 0.2s; 
+          opacity: 1;
           
 } 
 .delete-btn:hover{ 
-     transform: scale(1.1); 
+     transform: scale(1.1);
+      opacity: 1;
+       color: #c53030;
 }
 .delete-btn:focus{ 
      outline: none; 
